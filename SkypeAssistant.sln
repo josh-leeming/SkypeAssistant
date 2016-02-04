@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeAssistant.Console", "SkypeAssistant.Console\SkypeAssistant.Console.csproj", "{BBFCD1F4-21D7-4295-999B-63E2C525C283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeAssistant.Client", "SkypeAssistant.Client\SkypeAssistant.Client.csproj", "{491BB731-091A-4006-9D0F-4F8B63D7DA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeAssistant.Logger", "SkypeAssistant.Logger\SkypeAssistant.Logger.csproj", "{8B6AEE00-0997-483A-8C48-16F05F2A9B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeAssistant.Test", "SkypeAssistant.Test\SkypeAssistant.Test.csproj", "{3907847C-64B4-44C9-AD11-7F6B7CF91B44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behaviours", "Behaviours", "{B782B190-B2A3-4F21-A92D-C4D5058FB5E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeech", "Behaviours\TextToSpeech\TextToSpeech.csproj", "{E4BEFB5D-BFFF-45E9-8130-10798387C680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeAssistant.App", "SkypeAssistant.App\SkypeAssistant.App.csproj", "{A8073CAB-4E74-40D6-8C44-9773C044D05C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBFCD1F4-21D7-4295-999B-63E2C525C283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFCD1F4-21D7-4295-999B-63E2C525C283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFCD1F4-21D7-4295-999B-63E2C525C283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFCD1F4-21D7-4295-999B-63E2C525C283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491BB731-091A-4006-9D0F-4F8B63D7DA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491BB731-091A-4006-9D0F-4F8B63D7DA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491BB731-091A-4006-9D0F-4F8B63D7DA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491BB731-091A-4006-9D0F-4F8B63D7DA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6AEE00-0997-483A-8C48-16F05F2A9B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6AEE00-0997-483A-8C48-16F05F2A9B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6AEE00-0997-483A-8C48-16F05F2A9B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6AEE00-0997-483A-8C48-16F05F2A9B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3907847C-64B4-44C9-AD11-7F6B7CF91B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3907847C-64B4-44C9-AD11-7F6B7CF91B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3907847C-64B4-44C9-AD11-7F6B7CF91B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3907847C-64B4-44C9-AD11-7F6B7CF91B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BEFB5D-BFFF-45E9-8130-10798387C680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BEFB5D-BFFF-45E9-8130-10798387C680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BEFB5D-BFFF-45E9-8130-10798387C680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BEFB5D-BFFF-45E9-8130-10798387C680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8073CAB-4E74-40D6-8C44-9773C044D05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8073CAB-4E74-40D6-8C44-9773C044D05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8073CAB-4E74-40D6-8C44-9773C044D05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8073CAB-4E74-40D6-8C44-9773C044D05C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4BEFB5D-BFFF-45E9-8130-10798387C680} = {B782B190-B2A3-4F21-A92D-C4D5058FB5E4}
+	EndGlobalSection
+EndGlobal
